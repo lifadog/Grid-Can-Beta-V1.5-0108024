@@ -1,0 +1,279 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="Exit" xml:space="preserve">
+    <value>離開</value>
+  </data>
+  <data name="LoadConfig" xml:space="preserve">
+    <value>載入設定檔</value>
+</data>
+  <data name="SaveConfig" xml:space="preserve">
+    <value>儲存設定檔</value>
+  </data>
+  <data name="OpenCan" xml:space="preserve">
+    <value>開啟Canbus</value>
+  </data>
+  <data name="CloseCan" xml:space="preserve">
+    <value>關閉Canbus</value>
+  </data>
+  <data name="Connect" xml:space="preserve">
+    <value>連接</value>
+  </data>
+  <data name="Baud0" xml:space="preserve">
+    <value>波特率0:</value>
+  </data>
+  <data name="Baud1" xml:space="preserve">
+    <value>波特率1:</value>
+  </data>
+  <data name="EditData" xml:space="preserve">
+    <value>設定資料格式</value>
+  </data>
+    <data name="FilePath" xml:space="preserve">
+    <value>檔案路徑</value>
+  </data>
+  <data name="ShowIdList" xml:space="preserve">
+    <value>資料列表</value>
+  </data>
+  <data name="HideIdList" xml:space="preserve">
+    <value>隱藏資料列表</value>
+  </data>
+  <data name="Floating" xml:space="preserve">
+    <value>浮動</value>
+  </data>
+  <data name="Drop" xml:space="preserve">
+    <value>停駐</value>
+  </data>
+  <data name="lan" xml:space="preserve">
+    <value>設定語言:</value>
+  </data>
+  <data name="title" xml:space="preserve">
+    <value>Gird Can (測試版 V2.1 0240008)</value>
+  </data>
+  <data name="set" xml:space="preserve">
+    <value>設定</value>
+  </data>
+  <data name="tw" xml:space="preserve">
+    <value>繁體中文</value>
+  </data>
+  <data name="en" xml:space="preserve">
+    <value>英文(美國)</value>
+  </data>
+  <data name="getport" xml:space="preserve">
+    <value>取得裝置</value>
+  </data>
+ <data name="gbxxmlfile" xml:space="preserve">
+    <value>訊息列表</value>
+  </data>
+  <data name="btncreate" xml:space="preserve">
+    <value>建立</value>
+  </data>
+  <data name="gbxid" xml:space="preserve">
+    <value>訊息</value>
+  </data>
+  <data name="btnid" xml:space="preserve">
+    <value>設定ID</value>
+  </data>
+  <data name="gbxdata" xml:space="preserve">
+    <value>資料格式:</value>
+  </data>
+  <data name="dName" xml:space="preserve">
+    <value>名稱:</value>
+  </data>
+  <data name="dType" xml:space="preserve">
+    <value>型態:</value>
+  </data>
+  <data name="dSize" xml:space="preserve">
+    <value>大小:</value>
+  </data>
+  <data name="dlsb" xml:space="preserve">
+    <value>起始位元:</value>
+  </data>
+  <data name="dMsb" xml:space="preserve">
+    <value>結束位元:</value>
+  </data>
+  <data name="btnadd" xml:space="preserve">
+    <value>新增</value>
+  </data>
+  <data name="btndelete" xml:space="preserve">
+    <value>刪除</value>
+  </data>
+  <data name="btnvalue" xml:space="preserve">
+    <value>存入Xml檔案</value>
+  </data>
+  <data name="xmltitle" xml:space="preserve">
+    <value>資料編輯器</value>
+  </data>
+  <data name="rtbxml" xml:space="preserve">
+    <value>※從下方列表選取項目以編輯。</value>
+  </data>
+  <data name="rtbid" xml:space="preserve">
+    <value>※輸入名稱，並建立Xml檔案。
+※設定該資料集合之ID</value>
+  </data>
+  <data name="rtbdata" xml:space="preserve">
+    <value>※在選取的Xml檔案中新增資料格式 : 
+※名稱 : 資料名稱 ，類型 : 資料型別 ，資料大小(Bits)，起始Bit，結束Bit。</value>
+  </data>
+  <data name="rtbvalue" xml:space="preserve">
+    <value>※在編輯數值與新增資料格式後，請點擊寫入按鈕進行寫入。
+※Endian欄位值為lit或是big。</value>
+  </data>
+  <data name="gbx_xmldata" xml:space="preserve">
+    <value>數值</value>
+  </data>
+  <data name="rcan" xml:space="preserve">
+    <value>讀取數值</value>
+  </data>
+  <data name="wcan" xml:space="preserve">
+    <value>寫入數值</value>
+  </data>
+  <data name="gfile" xml:space="preserve">
+    <value>路徑與列表</value>
+  </data>
+  <data name="gcom" xml:space="preserve">
+    <value>Canbus設定操作</value>
+  </data>
+  <data name="coming" xml:space="preserve">
+    <value>資料傳輸中</value>
+  </data>
+  <data name="stopcom" xml:space="preserve">
+    <value>無資料傳輸</value>
+  </data>
+  <data name="lblxml" xml:space="preserve">
+    <value>名稱:</value>
+  </data>
+  <data name="btnnew" xml:space="preserve">
+    <value>新增</value>
+  </data>
+  <data name="btnres" xml:space="preserve">
+    <value>修改</value>
+  </data>
+  <data name="dec" xml:space="preserve">
+    <value>十進位</value>
+  </data>
+  <data name="hex" xml:space="preserve">
+    <value>十六進位</value>
+  </data>
+  <data name="copen" xml:space="preserve">
+    <value>Canbus 開啟</value>
+  </data>
+  <data name="cclose" xml:space="preserve">
+    <value>Canbus 關閉</value>
+  </data>
+</root>
